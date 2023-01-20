@@ -56,11 +56,20 @@ hr {
     content: url('./images/icon-arrow-down.svg');
 }
 
-.answer.hidden {
-    display: none;
+.question.open {
+    font-weight: 700;
+}
+
+.answer {
     color: hsl(240, 6%, 50%);
     padding-bottom: 1rem;
 }
+
+.answer.hidden {
+    display: none;
+}
+
+
 
 .attribution { 
     font-size: 11px; 
